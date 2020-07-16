@@ -1,0 +1,7 @@
+#Build, gradle and idle
+/build
+.gradle
+.idea
+
+#exceptions for apk of apps
+!/app/build/outputs/apk/debug/app-debug.apk

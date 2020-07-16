@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Contacts</string>
+
+    <string name="btnMale">Homme</string>
+    <string name="btnFemale">Femme</string>
+    <string name="btnValidate">Ajouter</string>
+
+    <string name="btnAdd">+</string>
+    <string name="contact">Contact</string>
+
+    <string name="txtGender">Gender:</string>
+
+    <string name="txtLastName">Nom de famille:</string>
+    <string name="etLastName">Nom de famille</string>
+
+    <string name="txtFirstName">Prenom:</string>
+    <string name="etFirstName">Prenom</string>
+
+    <string name="txtBirth">Date de naissance:</string>
+    <string name="etBirth">Date de naissance</string>
+
+    <string name="txtPhoneNumber">Numero de telephone:</string>
+    <string name="etPhoneNumber">Numero de telephone</string>
+
+    <string name="txtMail">Mail:</string>
+    <string name="etMail">Mail</string>
+
+    <string name="txtAddress">Adresse:</string>
+    <string name="etAddress">Adresse</string>
+
+    <string name="txtPostalCode">Code postal:</string>
+    <string name="etPostalCode">Code postal</string>
+
+    <string name="no_first_name">Entrez un prenom</string>
+    <string name="no_last_name">Entrez un nom de famille</string>
+    <string name="no_phone_number">entrez un numero de telephone</string>
+    <string name="no_gender_selected">Veuillez selectionner un sexe</string>
+
+    <string name="first_name">Votre prenom est: </string>
+    <string name="last_name">Votre nom est: </string>
+    <string name="phone_number">Votre numero de telephone est: </string>
+    <string name="gender_selected">Votre sexe est: </string>
+</resources>

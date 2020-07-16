@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">StationX</string>
+    <string name="station_name">Station name:</string>
+    <string name="nb_bikes">Bikes available:</string>
+    <string name="nb_stand_available">Stands available:</string>
+    <string name="nb_stand">Number of stands:</string>
+    <string name="nb_stations">Stations:</string>
+    <string name="station_open">Open:</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="favorites">Favorites</string>
+    <string name="open">Open</string>
+    <string name="maps">Map</string>
+    <string name="preferences">Preferences</string>
+    <string name="save_preferences">Save</string>
+    <string name="default_city">lyon</string>
+    <string name="city_name">City:</string>
+    <string name="error_internet">Please check your internet connection and reload the stations</string>
+    <string name="error_maps">Your phone can\'t use Google maps</string>
+    <string name="error_storage">You can\'t save favorites because you didn\'t allow the app to access your storage</string>
+    <string name="error_location">Your location could\'nt be retrieved</string>
+</resources>

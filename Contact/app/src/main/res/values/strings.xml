@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Contacts</string>
+
+    <string name="btnMale">Male</string>
+    <string name="btnFemale">Female</string>
+    <string name="btnValidate">Add</string>
+
+    <string name="btnAdd">+</string>
+    <string name="contact">Contact</string>
+
+    <string name="txtGender">Gender:</string>
+
+    <string name="txtLastName">Last Name:</string>
+    <string name="etLastName">Last name</string>
+
+    <string name="txtFirstName">First name:</string>
+    <string name="etFirstName">First name</string>
+
+    <string name="txtBirth">Date of birth:</string>
+    <string name="etBirth">Date of birth</string>
+
+    <string name="txtPhoneNumber">Phone number:</string>
+    <string name="etPhoneNumber">Phone number</string>
+
+    <string name="txtMail">Mail:</string>
+    <string name="etMail">Mail</string>
+
+    <string name="txtAddress">Address:</string>
+    <string name="etAddress">Address</string>
+
+    <string name="txtPostalCode">Postal code:</string>
+    <string name="etPostalCode">Postal code</string>
+
+    <string name="no_first_name">Please enter a first name</string>
+    <string name="no_last_name">Please enter a last name</string>
+    <string name="no_phone_number">Please enter a phone number</string>
+    <string name="no_gender_selected">Please choose a gender</string>
+
+    <string name="first_name">Your first name is: </string>
+    <string name="last_name">Your last name is: </string>
+    <string name="phone_number">Your phone number is: </string>
+    <string name="gender_selected">Your gender is: </string>
+</resources>
