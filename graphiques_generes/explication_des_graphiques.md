@@ -4,7 +4,7 @@ Vous trouverez ci-dessous des exemples de graphiques que j'ai eu à générer po
 
 Ils étudient tous la couverture réseaux des communes de France.
 
-Vous avez deux  scripts python dans [ce dossier](../graphiques_generes) qui ont permi de générer ces graphiques.
+Vous avez deux  scripts python dans [ce dossier](../scripts_python) qui ont permi de générer ces graphiques.
 
 J'ai dû reprendre le travail d'ancien stagiaire et générer ces graphiques (et d'autres) en 5 semaines.
 
