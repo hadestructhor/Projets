@@ -12,7 +12,7 @@ J'ai dû reprendre le travail d'ancien stagiaire et générer ces graphiques (et
 
 Le graphique ci-dessous représente la couverture réseaux de communes entre 500 et 1000 habitants.
 
-![figure 1](C:\Users\angel\Documents\Portfolio\graphiques_generes\statCommunes500-1000.png) 
+![figure 1](statCommunes500-1000.png) 
 
 Dans la légende en haut à gauche, vous avez pour chaque commune son nom, suivi après la virgule des deux premiers chiffres de son département et  après les deux points son nombre d'éemetteurs 4G totaux en 2020.
 
@@ -22,4 +22,4 @@ Si l'on regarde pour Saint-Thibault par exemple, on peut voir que jusqu'à l'ann
 
 Vous avez ci-dessous pour des communes qui ont entre 1 000 et 2 000 habitants l'année où le seuil de 50% à été atteint :
 
-![figure 2](C:\Users\angel\Documents\Portfolio\graphiques_generes\statSeuil1000-2000.png)
+![figure 2](statSeuil1000-2000.png)
