@@ -1,12 +1,24 @@
+# Graphiques générés pour l'ENS de Lyon en stage
+
+Vous pouvez voir [ici](graphiques_generes/explication_des_graphiques.md) deux graphiques que j'ai eu à générer pour l'ENS en 5 semaines pour la validation de mon DUT informatique.
+
+Vous trouverez également deux scripts python [ici](/scripts_python) qui ont chacun permis de générer un des deux graphiques. J'ai également mis à disposition la documentation que j'ai générés pour tous les scripts que j'ai écris [ici](/scripts_python/Documentation.md) si vous voulez y jeter un œil.
+
+J'ai eu à générer bien plus de graphiques et vous n'avez évidemment pas accès aux données utilisées pour générer ces graphiques.
+
+# Applications mobile codé en cours
+
+Vous avez ci-dessous une explication des deux applications Android que j'ai codé en cours de développement mobile.
+
 ## Ajouter une application à votre téléphone
 
-Vous aurez dans le dossier [APK](/APK) les apks des deux applications.
+Vous aurez dans le dossier [APK](/APK) les APKs des deux applications.
 
-Connecter votre téléphone à votre ordinateur en ayant activé le déboggage USB et en ajoutant l'apk de l'application que vous voulez tester dans un dossier.
+Connecter votre téléphone à votre ordinateur en ayant activé le débogage USB et en ajoutant l'APK de l'application que vous voulez tester dans un dossier.
 
-Une fois que l'apk est mis sur votre téléphone, vous n'avez plus qu'à aller dans le dossier où vous avez mis l'apk et à le lancer.
+Une fois que l'APK est mis sur votre téléphone, vous n'avez plus qu'à aller dans le dossier où vous avez mis l'APK et à le lancer.
 
-## Application Velov
+## Application Vélov
 
 Cette application liste tous les stations Vélov d'une ville. La ville par défaut est Lyon.
 
