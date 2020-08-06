@@ -1,0 +1,10 @@
+{"recipes":[{"id_recipe":1,"recipe_name":"Shrimp","recipe_description":"with avocado","recipe_calories":430,"recipe_time":40,"recipe_img":"assets/img/shrimp-avocado.jpg"},
+{"id_recipe":2,"recipe_name":"Glowweed","recipe_description":"Bryum Moss","recipe_calories":1450,"recipe_time":80,"recipe_img":"assets/img/.jpg"},
+{"id_recipe":3,"recipe_name":"Snow Cinquefoil","recipe_description":"Water-willow","recipe_calories":1800,"recipe_time":55,"recipe_img":"assets/img/.jpg"},
+{"id_recipe":4,"recipe_name":"Devil's-tongue","recipe_description":"Brown's Amaranth","recipe_calories":560,"recipe_time":160,"recipe_img":"assets/img/.jpg"},
+{"id_recipe":5,"recipe_name":"Borinda","recipe_description":"Alkanna","recipe_calories":830,"recipe_time":30,"recipe_img":"assets/img/.jpg"},
+{"id_recipe":6,"recipe_name":"Hairy Lipfern","recipe_description":"Missouri Blackberry","recipe_calories":210,"recipe_time":50,"recipe_img":"assets/img/.jpg"},
+{"id_recipe":7,"recipe_name":"Vervain","recipe_description":"Australian Millet","recipe_calories":640,"recipe_time":65,"recipe_img":"assets/img/.jpg"},
+{"id_recipe":8,"recipe_name":"Garcinia","recipe_description":"Toothed Calicoflower","recipe_calories":1170,"recipe_time":85,"recipe_img":"assets/img/.jpg"},
+{"id_recipe":9,"recipe_name":"Tall Wheatgrass","recipe_description":"Arrowhead","recipe_calories":480,"recipe_time":30,"recipe_img":"assets/img/.jpg"},
+{"id_recipe":10,"recipe_name":"Harper's Yelloweyed Grass","recipe_description":"Royal Spleenwort","recipe_calories":720,"recipe_time":55,"recipe_img":"assets/img/.jpg"}]}

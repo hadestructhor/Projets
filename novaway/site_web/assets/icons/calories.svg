@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="58px" height="60px" viewBox="0 0 58 60" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <defs>
+    <rect width="58" height="60" id="artboard_1" />
+    <clipPath id="clip_1">
+      <use xlink:href="#artboard_1" clip-rule="evenodd" />
+    </clipPath>
+  </defs>
+  <g id="Artboard-5" clip-path="url(#clip_1)">
+    <use xlink:href="#artboard_1" stroke="none" fill="#F6F4E9" />
+    <g id="Group" transform="translate(2.999954 7)">
+      <path d="M0 0L52.7317 0L52.7317 42.4146L0 42.4146L0 0Z" transform="translate(0 4.585388)" id="Rectangle" fill="#C7CAC6" stroke="none" />
+      <path d="M0 0L32.0976 0L32.0976 3.43903L0 3.43903L0 0Z" transform="translate(10.31708 34.39026)" id="Rectangle-3" fill="#E1E1D9" stroke="none" />
+      <path d="M0 0L11.4634 0L11.4634 3.43902L0 3.43902L0 0Z" transform="translate(20.63416 0)" id="Rectangle-6" fill="#C7CAC6" stroke="none" />
+      <path d="M0 0L18.3415 0L18.3415 3.43902L0 3.43902L0 0Z" transform="translate(17.19513 2.292664)" id="Rectangle-5" fill="#C7CAC6" stroke="none" />
+      <path d="M0 0L18.3415 0L18.3415 3.43903L0 3.43903L0 0Z" transform="translate(17.19513 41.26831)" id="Rectangle-4" fill="#E1E1D9" stroke="none" />
+      <path d="M0 10.8902C0 4.87573 4.87573 0 10.8902 0C16.9048 0 21.7805 4.87573 21.7805 10.8902C21.7805 16.9048 16.9048 21.7805 10.8902 21.7805C4.87573 21.7805 0 16.9048 0 10.8902Z" transform="translate(16.04877 5.731689)" id="Ellipse" fill="#F6F4E9" stroke="#F6F4E9" stroke-width="3" />
+      <path d="M0 0L4.58537 0L4.58537 11.4634L0 11.4634L0 0Z" transform="translate(24.07318 9.170715)" id="Rectangle-2" fill="#C7CAC6" stroke="none" />
+    </g>
+  </g>
+</svg>

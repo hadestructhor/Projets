@@ -1,0 +1,797 @@
+/* Fonts*/
+
+@font-face {
+	font-family: rambla-regular; 
+	src: url('fonts/Rambla-Regular.ttf');
+} 
+
+@font-face {
+	font-family: rambla-bold; 
+	src: url('fonts/Rambla-Bold.ttf');
+} 
+
+@font-face { 
+	font-family: rambla-italic; 
+	src: url('fonts/Rambla-Italic.ttf');
+} 
+
+@font-face {
+	font-family: rambla-bold-italic; 
+	src: url('fonts/Rambla-BoldItalic.ttf');
+}
+
+/* Common css to all screen sizes */
+
+body {
+	background-color: #bdbda7;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#widget{
+	border-radius: 10px;
+	overflow: hidden;
+	display: flex;
+	box-shadow: 0 50px 30px -15px gray;
+}
+
+/* Counter and reviews sections */
+
+#counter-reviews{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-end;
+	flex:1;
+}
+
+#reviews {
+	margin: 20px;
+	margin-bottom: 26px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#counter{
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    overflow: hidden;
+    background-color: #48c99d;
+    padding: 8px;
+    margin-left: 26px;
+}
+
+#reviews{
+    height: 74px;
+    margin: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.review{
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    background-color: lightgrey;
+    margin: 0;
+    margin-left: 10px;
+    position: relative;
+}
+
+#counter {
+	text-align: center;
+	font-size: 24px;
+	font-family: rambla-bold;
+	color: white;
+}
+
+/* Download sections*/
+
+#download1{
+	background-color: #48c99d;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+#download2 {
+	display: flex;
+	align-items: center;
+}
+
+#download-img{
+	background: url(icons/download.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#download-texts{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 8px;
+}
+
+.dl-text {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: rambla-bold;
+	color : #348c6e;
+}
+
+/* Recipe information sections */
+
+#recipe-information1 {
+	background-color: #f6f4e9;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#recipe-name {
+    margin: 0;
+    font-size: 32px;
+    font-family: rambla-bold-italic;
+    color: #4a5a67;
+}
+
+#recipe-description{
+    margin: 0;
+    font-size: 24px;
+    color: #4a5a67;
+}
+
+#time-img{
+	background: url(icons/time.svg);
+	width: 24px;
+	height: 24px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+    margin-right: 10px;
+}
+
+#recipe-time{
+	margin: 0;
+    color: #c2c5c2;
+    font-size: 20px;
+}
+
+#calories-img{
+    background: url(icons/calories.svg);
+    width: 24px;
+    height: 24px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+    margin-right: 10px;
+}
+
+#recipe-calories{
+	margin: 0;
+    color: #c2c5c2;
+    font-size: 20px;
+}
+
+/* Note section */
+
+#note-section1{
+	background-color: #f6f4e9;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#information-note{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+}
+
+/* hidden text */
+
+.review .hidden{
+    display: none;
+}
+.review:hover .hidden {
+	display: block;
+}
+
+/* Mobile */
+@media (max-width:360px){
+
+	#widget{
+		margin:20px;
+		flex-direction: column;
+	}
+
+	/* Counter and reviews sections */
+
+	#counter{
+		margin-left: 16px;
+		margin-bottom: 24px;
+	}
+
+	#reviews{
+		margin: 10px;
+	}
+
+	.review{
+		margin-bottom: 24px;
+		margin-left: 5px;
+	}
+
+	#information{
+		width: 100%;
+		height: 45%;
+		min-height: 170px;
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	/* Download sections */
+
+	#download1 {
+		width: 100%;
+		height: 40%;
+	}
+
+	#download2 {
+		width: 100%;
+		height: 100%;
+		flex-direction: row;
+		justify-content: flex-start;
+	}
+
+	#download-img{
+		width: 60px;
+		height: 60px;
+		margin-left: 24px;
+		margin-right: 24px;
+	}
+
+	.dl-text{
+		align-self: flex-start;
+		font-size: 16px;
+	}
+
+	#download-texts{
+		align-items: center;
+		margin-left: 0;
+	}
+
+	/* Information note section */
+
+	#information-note{
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		height: 60%;
+	}
+
+	/* Recipe information sections */
+
+	#recipe-information1 {
+		width: 65%;
+		height: 100%;
+	}
+
+	#recipe-information2 {
+		width: 100%;
+		height: 75%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+    	align-items: flex-start;
+    	border-right: 2px solid #c2c5c2;
+	}
+
+	#recipe-name{
+		font-size: 24px;
+	}
+
+	#recipe-description{
+		font-size: 20px;
+	}
+
+	#texts-recipe {
+		margin-bottom: 24px;
+		margin-left: 24px;
+	}
+
+	#time{
+		display: flex;
+		flex-direction: row;
+		margin-left: 20px;
+		margin-bottom: 12px;
+	}
+
+	#time-img{
+		width: 16px;
+		height: 16px;
+	}
+
+	#recipe-time{
+		font-size: 16px;
+	}
+
+	#recipe-calories{
+		font-size: 16px;
+	}
+
+	#calories-img{
+		width: 16px;
+		height: 16px;
+	}
+
+	#calories{
+		display: flex;
+		flex-direction: row;
+		margin-left: 20px;
+	}
+
+	/* Note sections */
+
+	#note-section1{
+		width: 35%;
+		height: 100%;
+	}
+
+	#note-section2 {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#note-texts{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+	}
+
+	#average-note{
+	    margin: 0;
+	    font-size: 24px;
+	    color: #ec6744;
+	    font-family: rambla-bold;
+	}
+
+	#number-votes{
+	    margin: 0;
+	    font-size: 16px;
+	    color: #ec6744;
+	    font-family: rambla;
+	    margin-bottom: 24px;
+	}
+
+	#cooking-hat-img{
+		background: url(icons/cooking-hat.svg);
+		width: 40px;
+		height: 40px;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+
+}
+/* Tablette */
+@media (min-width:361px) and (max-width:768px) {
+
+	#widget{
+		margin:100px;
+		flex-direction: column;
+	}
+
+	/* Counter and reviews sections */
+
+	#information{
+		width: 100%;
+		height: 33%;
+		min-height: 170px;
+		display: flex;
+		flex-direction: row-reverse;
+	}
+
+	#reviews{
+		margin: 12px;
+	}
+
+	/* Download sections */
+
+	#download1 {
+		width: 30%;
+		height: 100%;
+	}
+
+	#download2 {
+		width: 100%;
+		height: 100%;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	#download-img{
+		width: 60px;
+		height: 60px;
+		margin-bottom: 16px;
+	}
+
+	#download-texts{
+		align-items: center;
+	}
+
+	/* Information note section */
+
+	#information-note{
+		display: flex;
+		flex-direction: row-reverse;
+		width: 70%;
+		height: 100%;
+	}
+
+	/* Recipe information sections */
+
+	#recipe-information1 {
+		order:2;
+		width: 60%;
+		height: 100%;
+	}
+
+	#recipe-information2 {
+		width: 100%;
+		height: 75%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+    	align-items: flex-start;
+    	border-right: 2px solid #c2c5c2;
+	}
+
+	#recipe-name{
+		font-size: 24px;
+	}
+
+	#recipe-description{
+		font-size: 20px;
+	}
+
+	#texts-recipe {
+		margin-bottom: 24px;
+		margin-left: 24px;
+	}
+
+	#time{
+		display: flex;
+		flex-direction: row;
+		margin-left: 20px;
+	}
+
+	#time-img{
+		width: 16px;
+		height: 16px;
+	}
+
+	#recipe-time{
+		font-size: 16px;
+	}
+
+	#recipe-calories{
+		font-size: 16px;
+	}
+
+	#calories-img{
+		width: 16px;
+		height: 16px;
+	}
+
+	#calories{
+		display: flex;
+		flex-direction: row;
+		margin-left: 20px;
+	}
+
+	/* Note sections */
+
+	#note-section1{
+		width: 40%;
+		height: 100%;
+	}
+
+	#note-section2 {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#note-texts{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+	}
+
+	#average-note{
+	    margin: 0;
+	    font-size: 24px;
+	    color: #ec6744;
+	    font-family: rambla-bold;
+	}
+
+	#number-votes{
+	    margin: 0;
+	    font-size: 16px;
+	    color: #ec6744;
+	    font-family: rambla;
+	    margin-bottom: 24px;
+	}
+
+	#cooking-hat-img{
+		background: url(icons/cooking-hat.svg);
+		width: 60px;
+		height: 60px;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+
+}
+/* Smaller screen sizes for pc */
+@media (min-width:769px) and (max-width:1200px) {
+
+	#widget{
+		margin:100px;
+		display: flex;
+		flex-direction: row;
+	}
+
+	/* Counter and reviews sections */
+
+	#information{
+		min-width: 250px;
+		max-width: 250px;
+	}
+
+	/* Download sections */
+
+	#download1 {
+		width: 100%;
+		height: 25%;
+	}
+
+	#download2 {
+		width: 85%;
+		height: 25%;
+		flex-direction: row;
+		justify-content: flex-start;
+	}
+
+	#download-img{
+		width: 36px;
+		height: 36px;
+		margin-right: 8px;
+	}
+
+	#download-texts{
+		align-items: flex-start;
+	}
+
+	/* Recipe information sections */
+
+	#recipe-information1 {
+		width: 100%;
+		height: 50%;
+	}
+
+	#recipe-information2 {
+		width: 85%;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+    	align-items: flex-start;
+    	border-bottom: 2px solid #c2c5c2;
+	}
+
+	#texts-recipe {
+		margin-bottom: 24px;
+	}
+
+	#time{
+		display: flex;
+		flex-direction: row;
+		margin-bottom: 10px;
+	}
+
+	#calories{
+		display: flex;
+		flex-direction: row;
+	}
+
+	/* Note sections */
+
+	#note-section1{
+		width: 100%;
+		height: 25%;
+	}
+
+	#note-section2 {
+		width: 85%;
+		height: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	#note-texts{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+	}
+
+	#average-note{
+	    margin: 0;
+	    font-size: 32px;
+	    color: #ec6744;
+	    font-family: rambla-bold;
+	}
+
+	#number-votes{
+	    margin: 0;
+	    font-size: 24px;
+	    color: #ec6744;
+	    font-family: rambla;
+	}
+
+	#cooking-hat-img{
+		background: url(icons/cooking-hat.svg);
+		width: 70px;
+		height: 70px;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+
+}
+/* Bigger pc Screens */
+@media (min-width:1201px){
+
+	#widget{
+		margin:100px;
+		min-width: 1200px;
+		max-width: 1200px;
+		flex-direction: row;
+	}
+
+	/* Counter and reviews sections */
+
+	#information{
+		min-width: 250px;
+		max-width: 250px;
+	}
+
+	/* Download sections */
+
+	#download1 {
+		width: 100%;
+		height: 25%;
+	}
+
+	#download2 {
+		width: 85%;
+		height: 25%;
+		flex-direction: row;
+		justify-content: flex-start;
+	}
+
+	#download-img{
+		width: 36px;
+		height: 36px;
+		margin-right: 8px;
+	}
+
+	#download-texts{
+		align-items: flex-start;
+	}
+
+	/* Recipe information sections */
+
+	#recipe-information1 {
+		width: 100%;
+		height: 50%;
+	}
+
+	#recipe-information2 {
+		width: 85%;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+    	align-items: flex-start;
+    	border-bottom: 2px solid #c2c5c2;
+	}
+
+	#texts-recipe {
+		margin-bottom: 24px;
+	}
+
+	#time{
+		display: flex;
+		flex-direction: row;
+		margin-bottom: 10px;
+	}
+
+	#calories{
+		display: flex;
+		flex-direction: row;
+	}
+
+	/* Note sections */
+
+	#note-section1{
+		width: 100%;
+		height: 25%;
+	}
+
+	#note-section2 {
+		width: 85%;
+		height: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	#note-texts{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+	}
+
+	#average-note{
+	    margin: 0;
+	    font-size: 32px;
+	    color: #ec6744;
+	    font-family: rambla-bold;
+	}
+
+	#number-votes{
+	    margin: 0;
+	    font-size: 24px;
+	    color: #ec6744;
+	    font-family: rambla;
+	}
+
+	#cooking-hat-img{
+		background: url(icons/cooking-hat.svg);
+		width: 70px;
+		height: 70px;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+
+}
