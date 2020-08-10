@@ -8,7 +8,7 @@ J'ai eu à générer bien plus de graphiques et vous n'avez évidemment pas acc�
 
 # Site web test pour une entreprise
 
-Vous trouverez dans [ce dossier](/site_web_test/site_web/readme.md) un site web responsive sur des recettes de cuisine que j'ai réalisé suite à une candidature.
+Vous trouverez dans [ce dossier](/site_web_test/site_web/) un site web responsive sur des recettes de cuisine que j'ai réalisé suite à une candidature.
 
 # Applications mobile codé en cours
 
