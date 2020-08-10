@@ -6,6 +6,10 @@ Vous trouverez également deux scripts python [ici](/scripts_python) qui ont cha
 
 J'ai eu à générer bien plus de graphiques et vous n'avez évidemment pas accès aux données utilisées pour générer ces graphiques.
 
+# Site web test pour une entreprise
+
+Vous trouverez dans [ce dossier](/site_web_test/site_web/readme.md) un site web responsive sur des recettes de cuisine que j'ai réalisé suite à une candidature.
+
 # Applications mobile codé en cours
 
 Vous avez ci-dessous une explication des deux applications Android que j'ai codé en cours de développement mobile.
@@ -70,3 +74,14 @@ Pour afficher les infos d'un contact vous avez juste à cliquer dessus.
 ### Supprimer un contact
 
 Restez appuyé longtemps sur un contact le supprimera
+
+# Applications mobile codé hors cours
+
+Vous avez ci-dessous une des application que je code actuellement tout en apprenant le Kotlin.
+
+### beatboxloopstation
+
+Pour l'instant il n'y a qu'un RecyclerView qui contient des pistes qui serviront à enregistrer et jouer des sons en boucle.
+
+Le but de cette application est de m'entraîner et de reproduire la loopstation de Boss (la RC 505 si vous voulez voir à quoi elle ressemble) car je n'ai trouvé aucune application sur le Google Play Store qui permet de faire ce que je souhaite faire avec.
+

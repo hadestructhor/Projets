@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" android:background="#000000">
+
+
+    <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/deleteTrackButton"
+            android:background="@drawable/ic_delete_sound"
+            app:layout_constraintTop_toBottomOf="@+id/editTrack"
+            app:layout_constraintStart_toStartOf="@+id/editTrack"
+            app:layout_constraintEnd_toEndOf="@+id/editTrack" android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp" app:layout_constraintHorizontal_bias="0.0"
+            android:layout_marginBottom="4dp" app:layout_constraintBottom_toTopOf="@+id/trackNumber"/>
+    <com.example.widgets.CustomCheckBox
+            android:text="@string/edit"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:button="@null"
+            android:id="@+id/editTrack" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toTopOf="@+id/deleteTrackButton"
+            app:layout_constraintVertical_bias="0.0"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp" android:textColor="#ADB1BD" android:textSize="12sp"/>
+    <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/playButton"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/deleteTrackButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0" android:background="@drawable/ic_play_circle_gray"
+            android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/trackNumber"
+            android:layout_marginTop="4dp" android:layout_marginBottom="8dp"
+    />
+    <TextView
+            android:text="@string/_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/trackNumber" android:layout_marginTop="4dp"
+            app:layout_constraintTop_toBottomOf="@+id/deleteTrackButton"
+            app:layout_constraintBottom_toTopOf="@+id/playButton"
+            android:layout_marginBottom="4dp" app:layout_constraintStart_toStartOf="@+id/deleteTrackButton"
+            android:textColor="@color/textOnPrimary" android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp" android:textSize="18sp"/>
+    <com.example.widgets.VerticalSeekBar
+            android:id="@+id/trackVolume"
+            android:layout_width="0dp"
+            android:layout_height="117dp"
+            android:layout_centerInParent="true"
+            android:max="100"
+            android:progress="0"
+            android:progressDrawable="@drawable/seekbar_track"
+            android:thumb="@drawable/seekbar_thumb" app:layout_constraintEnd_toEndOf="@+id/playButton"
+            app:layout_constraintStart_toEndOf="@+id/deleteTrackButton" android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="@+id/editTrack"
+            app:layout_constraintBottom_toBottomOf="@+id/trackNumber"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
