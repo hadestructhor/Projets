@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">DominoCounter</string>
+    <string name="game_number">Game Number</string>
+    <string name="max_score">Max Score:</string>
+    <string name="player_1">Player 1:</string>
+    <string name="player_2">Player 2:</string>
+    <string name="player_3">Player 3:</string>
+    <string name="player_4">Player 4:</string>
+    <string name="not_enough_players">Not enough players, you need to be two at least</string>
+    <string name="name">Name</string>
+    <string name="default_max_score">550</string>
+    <string name="create_game">Create Game</string>
+    <string name="game_name_desc">Game name:</string>
+    <string name="game_name">Game Name</string>
+    <string name="save">save</string>
+</resources>
